@@ -1,0 +1,183 @@
+/* ベーススタイル */
+body {
+    font-family: 'Arial', YuGothic, 'Yu Gothic', 'Hiragino Kaku Gothic ProN',
+     'ヒラギノ角ゴ ProN W3', 'メイリオ', Meiryo, 'MS ゴシック', sans-serif;
+    color: #333333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ヘッダー */
+/*.header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 10%;
+    /* あとで */
+    /* background-color:  ; */
+
+
+.app-title{
+    /* あとできめる */
+    /* color: black;   */
+    font-style: 40px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+/* ヘッダーのcss 変更OK*/
+/*header {
+    background-color: #041652;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* 写真 サイズはこれから調整*/
+  
+  #sec1 {
+    background-image: url("/卒業制作img/sashimi01.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    background-size: cover;
+}
+/* 見ずらいのでとりあえず色付けています。 */
+#sec1 h1 {
+    color: #fff;
+
+}
+
+
+
+
+.container {
+  margin-bottom: 20px; /* ボタンと画面下部の間隔を調整 */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.cta_btn03 {
+  text-align: center;
+}
+
+
+
+.cta_btn03 {
+  width: 100%;
+  max-width: 350px; /* ボタン幅 */
+  color: #fff; /* ボタン文字色 */
+  background-color: #1111e9; /* ボタン上色 */
+  position: relative;
+  padding: 1em 2em;
+  border-radius: 100vh;
+  border-bottom: 5px solid #02042c; /* ボタン下色 */
+  font-weight: bold; /* ボタン文字の太さ */
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.cta_btn03-copy {
+  font-size:90%; /* コピー文字サイズ */
+  font-weight: bold; /* コピー文字の太さ */
+  color: initial; /* コピー文字の色 */
+  position: absolute;
+  top: -2em;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  width: 100%;
+}
+
+.cta_btn03-copy:before {
+  margin-right: 1rem;
+  content: '＼';
+}
+
+.cta_btn03-copy:after {
+  margin-left: 1rem;
+  content: '／';
+}
+
+/* マウスオーバーした際のデザイン */
+.cta_btn03:hover {
+  margin-top: calc(2em + 3px);
+  border-bottom: 2px solid #402aeb; /* ボタン下色 */
+}
+
+
+
+
+/*base.html用*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.image-with-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-with-text img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ここは、後で調整します */
+
+.text {
+  color: orange;
+  position: relative;
+  top: -20px; /* 画像より少し上に配置 */
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-button {
+  margin: 10px;
+  text-align: center;
+}
+
+.image-button img {
+  display: block;
+  width: 200px; /* 画像の幅 */
+  height: auto;
+}
+
+.button {
+  display: block;
+  width: 200px; /* ボタンの幅 */
+  height: 40px; /* ボタンの高さ */
+  background-color: #ddd;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
